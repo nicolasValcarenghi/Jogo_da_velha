@@ -1,0 +1,48 @@
+.app-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.botoes-dificuldade {
+  margin-bottom: 1rem;
+}
+
+.botoes-dificuldade button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.dificuldade-atual {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 1rem auto;
+  width: 200px;
+}
+
+.celula {
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.botoes-controle {
+  margin-top: 1rem;
+}
+
+.botoes-controle button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}

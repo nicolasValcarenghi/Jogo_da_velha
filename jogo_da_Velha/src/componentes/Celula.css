@@ -1,0 +1,17 @@
+.celula {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .celula:hover {
+    background-color: #f0f0f0;
+  }
+  
